@@ -1,0 +1,5 @@
+{
+	"watch": ["./Server"],
+	"exec": "babel-node ./Server/app.js",
+	"ext": "js json jsx"
+}
