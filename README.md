@@ -6,8 +6,6 @@
 
 ## Features
 
-<hr/>
-
 ✅ Express v4.16.1
 
 ✅ Webpack v4.44.2
@@ -24,8 +22,6 @@
 
 ## How to build an application?
 
-<hr/>
-
 ```javascript
 npm run build-dev     # Development mode
 npm run build-prod    # Production mode
@@ -34,8 +30,6 @@ npm run build-prod    # Production mode
 <br/>
 
 ## How to develop an application?
-
-<hr/>
 
 ```javascript
 npm run dev     # Use webpack-dev-server
@@ -46,13 +40,11 @@ npm run start   # Use webpack -w
 
 ## How to change dev/prod environment variable setting?
 
-<hr/>
-
 ```javascript
-/* file location */
+/* .env file location */
 
-// development .env = /.env.dev
-// production .env = /.env.prod
+# development mode => /.env.dev
+# production mode => /.env.prod
 ```
 
 <br/>
