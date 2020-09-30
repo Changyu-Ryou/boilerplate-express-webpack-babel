@@ -1,10 +1,10 @@
 {
-	"name": "javascript-w5-accountbook",
+	"name": "vanilla-express-webpack-babel Starte kit",
 	"version": "1.0.0",
-	"description": "스프린트 5-6주차 웹 프로젝트 - 가계부",
+	"description": "Starter with Vanilla & Express & Webpack & Babel for Web Server and Client dev",
 	"main": "index.js",
 	"scripts": {
-		"start": "concurrently \"cp ./.env.prod ./.env\" \"nodemon\"",
+		"start": "concurrently \"cp ./.env.prod ./.env\" \"npm run build-dev\" \"babel-node --config-file ./Server/.babelrc ./Server/app.js\"",
 		"dev": "concurrently \"cp ./.env.dev ./.env\" \"npm run build-dev\" \"nodemon\"",
 		"build-prod": "webpack --config webpack.config.prod.js",
 		"build-dev": "webpack --config webpack.config.dev.js"

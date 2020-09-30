@@ -1,6 +1,6 @@
-# boilerplate-express-webpack-babel
+# boilerplate-vanilla-express-webpack-babel-starter
 
-👉 Starter with Express & Webpack & Babel for Web Server and Client dev
+👉 Starter with `Vanilla JS` & `Express` & `Webpack` & `Babel` for Web Server and Client dev
 
 <br/>
 
@@ -14,13 +14,13 @@
 
 ✅ Support syntax ES2015+
 
-✅ Static directory dist/
+✅ Client file will be stored in `/dist` after build
 
-✅ Serving Static Files in Express.js
+✅ Static directory `dist/`
+
+✅ Serving Static Files in `Express.js`
 
 <br/>
-
-
 
 ## Directory Structure
 
@@ -54,11 +54,7 @@
 
 ```
 
-
-
 <br/>
-
-
 
 ## How to build an application?
 
@@ -72,8 +68,8 @@ npm run build-prod    # Production mode
 ## How to develop an application?
 
 ```javascript
-npm run dev     # Use webpack-dev-server
-npm run start   # Use webpack -w
+npm run dev     # Use webpack, express and babel with nodemon
+npm run start   # Use webpack, express and babel
 ```
 
 <br/>
