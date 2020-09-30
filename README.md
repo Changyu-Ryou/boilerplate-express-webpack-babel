@@ -20,6 +20,46 @@
 
 <br/>
 
+
+
+## Directory Structure
+
+```javascript
+
+.
+├── Client
+│   ├── components
+│   ├── index.js
+│   ├── pages
+│   │   └── indexPage
+│   │       ├── index.css
+│   │       ├── index.html
+│   │       └── index.js
+│   └── services
+│
+├── Server
+│   ├── app.js
+│   ├── config
+│   ├── middleware
+│   ├── models
+│   └── routes
+│       ├── api
+│       └── index.js
+├── README.md
+├── nodemon.json
+├── package-lock.json
+├── package.json
+├── webpack.config.dev.js
+└── webpack.config.prod.js
+
+```
+
+
+
+<br/>
+
+
+
 ## How to build an application?
 
 ```javascript
